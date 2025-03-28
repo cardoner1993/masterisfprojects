@@ -2,7 +2,10 @@
 Install requirements.txt file with pip install -r requirements.txt
 
 # First approach.
-For the first approach a Dataset from Kaggle containing features from pe (portable executable) files have been analyzed.
+
+The goal for the first DEMO is to show how label flipping can degradate model peformance. For this approach we have corrupted a percentage of the training data.
+
+For the first approach a Dataset from Kaggle containing features from pe (portable executable) files has been used.
 
 https://www.kaggle.com/datasets/amauricio/pe-files-malwares/data
 
@@ -54,7 +57,15 @@ In order to analyze the poissoning effects a set of plots have been included ins
 # Second Approach.
 Data Poissoning in RAG System.
 
-# Example Execution.
+The DB context has been poissoned forcing the model to detect malware files as benign.
+
+### Clean RAG
+![Clean RAG](images/CleanRAG.jpeg)
+
+### Polluted RAG
+![Polluted RAG](images/PoisonedRAG.jpeg)
+
+# Code Execution.
 First example.
 ````
 python data_poissoning.py 
