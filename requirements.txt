@@ -9,3 +9,6 @@ sentence-transformers
 huggingface_hub
 accelerate
 gradio==5.22.0
+ripser==0.6.12
+persim==0.3.8
+shap==0.47.1
