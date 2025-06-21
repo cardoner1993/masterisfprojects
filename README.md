@@ -74,3 +74,5 @@ Second example.
 ````
 python RAG_poisoning.py
 ````
+
+# Added Github Actions for CI/CD.
